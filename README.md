@@ -6,7 +6,7 @@ Recommended Packages
     "react-redux"
     "react-router-dom"
     "react-toastify"
-    "redux": "^4.2.0"
+    "redux"
     
    Backend Packages
    
