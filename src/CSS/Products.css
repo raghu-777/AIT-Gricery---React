@@ -1,0 +1,89 @@
+#products .col :hover {
+    border-color: rgba(0, 0, 0, 0.74);
+    border-width: 3px;
+}
+
+.card button:hover {
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+#products img {
+    width: 200px;
+    margin: 0px auto;
+}
+
+#products .card-text {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.card-rating {
+    margin-top: -10px;
+}
+
+.card-rating .fa-solid {
+    font-size: 2rem;
+    color: #FF7800;
+}
+
+/* Media Queries  */
+
+@media only screen and (max-width:576px) {
+
+    #products .row {
+        margin: 0 15%;
+    }
+
+    #products .card {
+        width: auto;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    #products .row {
+        margin: 0 5%;
+    }
+
+    #products .card {
+        width: auto;
+    }
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    #products .row {
+        margin: 0 3%;
+    }
+
+    #products .card {
+        width: auto;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    #products .row {
+        margin: 0 5%;
+    }
+
+    #products .card {
+        width: auto;
+    }
+
+
+}
+
+@media only screen and (min-width:1200px) {
+    #products .row {
+        margin: 0 5%;
+    }
+
+    #products .card {
+        width: auto;
+    }
+
+}

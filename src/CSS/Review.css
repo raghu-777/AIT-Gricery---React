@@ -1,0 +1,93 @@
+#reviews .card {
+    padding: 10px 0;
+}
+
+#reviews .col :hover {
+    border-color: rgba(0, 0, 0, 0.74);
+    border-width: 3px;
+}
+
+#reviews [src *='pic'] {
+    width: 120px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+#reviews .row {
+    margin: 0 3%;
+}
+
+#reviews .card {
+    width: 22vw;
+}
+
+/* Media Queries  */
+
+@media only screen and (max-width:576px) {
+    #reviews .row {
+        margin: 0 5%;
+    }
+
+    #reviews .card {
+        width: auto;
+    }
+
+    #reviews {
+        margin-top: 10%;
+        font-size: 2.9rem;
+    }
+
+    .arrow-design {
+        width: auto;
+        padding: 0px 35px;
+        padding-top: 8px;
+        margin-top: -8px;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    #reviews .row {
+        margin: 0 5%;
+    }
+
+    #reviews .card {
+        width: auto;
+    }
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    #reviews .row {
+        margin: 0 5%;
+    }
+
+    #reviews .card {
+        width: auto;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    #reviews .row {
+        margin: 0 5%;
+    }
+
+    #reviews .card {
+        width: auto;
+    }
+
+
+}
+
+@media only screen and (min-width:1200px) {
+    #reviews .row {
+        margin: 0 5%;
+    }
+
+    #reviews .card {
+        width: auto;
+    }
+
+}

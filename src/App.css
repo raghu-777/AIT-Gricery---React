@@ -1,0 +1,115 @@
+#features,
+#products,
+#categories,
+#reviews,
+#blog {
+  padding: 3% 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #130F40;
+}
+
+#features .row,
+#products .row,
+#reviews .row {
+  margin: 0 10%;
+}
+
+#features .card,
+#products .card,
+#categories .card,
+#reviews .card {
+  text-align: center;
+  height: auto;
+  padding: 20px 0;
+  width: 25vw;
+  border: 10px solid transparent;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 3px 5px #aaaaaa, inset 0 0 0 1px rgb(173, 164, 164);
+}
+
+#products .card {
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+#features .card-title,
+#products .card-title,
+#categories .card-title,
+#reviews .card-title,
+#blog .card-title,
+#loginForm h1 {
+  font-size: 2.5rem;
+  color: #130F40;
+  font-weight: bold;
+}
+
+#features .card-text,
+#products .card-text,
+#categories .card-text,
+#reviews .card-text,
+#blog .card-text {
+  font-size: 1.6rem;
+  color: #8D7A72;
+  font-weight: 500;
+  width: 100%;
+}
+
+.card a,
+.card button,
+#Login #Logout {
+  padding: 8px 30px;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #73445E;
+  font-weight: 500;
+  margin-top: 10px;
+  padding-bottom: 12px;
+  border: 3px solid #73445E;
+  border-radius: 5px;
+}
+
+.card a:hover {
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+
+#Logout:hover {
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+
+#features .col-lg-4 :hover {
+  border-color: rgba(0, 0, 0, 0.74);
+  border-width: 3px;
+}
+
+#products .col-lg-4 :hover {
+  border-color: rgba(0, 0, 0, 0.74);
+  border-width: 3px;
+}
+
+#categories .col-lg-3 :hover {
+  border-color: rgba(0, 0, 0, 0.74);
+  border-width: 3px;
+}
+
+#reviews .col-lg-4 :hover {
+  border-color: rgba(0, 0, 0, 0.74);
+  border-width: 3px;
+}
+
+/* Media Queries  */
+
+@media only screen and (min-width:767px) and (max-width:991px) {
+  .arrow-design {
+    width: auto;
+    padding: 0px 35px;
+    padding-top: 5px;
+    margin-top: -8px;
+}
+}

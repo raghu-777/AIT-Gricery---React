@@ -1,0 +1,154 @@
+/* New Styling  */
+a {
+    text-decoration: none;
+}
+
+.cart {
+    min-height: 85vh;
+    background-color: #f8f9fa;
+}
+
+.cart .row {
+    margin: 0 2%;
+    /* margin-right: 10%; */
+}
+
+.cart-empty {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    text-align: center;
+}
+
+.cart-empty a {
+    padding: 5px 20px;
+    width: 95%;
+    margin-left: auto;
+    background-color: transparent;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #73445E;
+    border: 3px solid #73445E;
+    border-radius: 5px;
+}
+
+.cart-empty a:hover {
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.cart-item {
+    border: 1px solid rgb(224, 224, 225);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 6%) 0px 2px 2px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding-bottom: 10px;
+}
+
+.cart-item img {
+    width: 60%;
+    height: auto;
+}
+
+.cart-item h3 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #130F40;
+    margin: 20px 0;
+}
+
+.cart-item h2 {
+    font-size: 2.7rem;
+}
+
+.cart-item .fa-indian-rupee-sign {
+    font-size: 2.5rem;
+}
+
+.quantity-btn button {
+    padding: 0 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid #130F40;
+}
+
+.quantity-btn p {
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.checkout {
+    padding: 5px 41%;
+    background-color: orangered;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.checkout:hover {
+    color: #fff;
+    border: none;
+}
+
+.payment {
+    border: 1px solid rgb(224, 224, 225);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 6%) 0px 2px 2px;
+    padding: 10px 20px;
+    line-height: 30px;
+}
+
+.payment h6 {
+    font-size: 1.8rem;
+    font-size: bold;
+}
+
+.payment p {
+    font-size: 1.5rem;
+}
+
+.remove {
+    padding: 50px;
+}
+
+.remove h2 {
+    padding-right: 30px;
+}
+
+.remove .fa-trash-can {
+    font-size: 2.5rem;
+    color: orangered;
+    cursor: pointer;
+}
+
+.cart-scroll {
+    max-height: 75vh;
+    overflow-y: scroll;
+}
+
+.charges {
+    margin-top: 20px;
+
+}
+
+.charges p {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.charges .fa-indian-rupee-sign {
+    font-size: 1.5rem;
+    margin-right: 3px;
+}
+
+@media only screen and (max-width:576px) {
+    .charges {
+        margin-top: 0;
+    
+    }
+}

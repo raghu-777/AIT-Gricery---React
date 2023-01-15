@@ -1,0 +1,173 @@
+/* AchieversIT Logo Text  */
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5353FF;
+}
+
+.logo span {
+    color: #FF5F24;
+}
+
+
+/* Navbar Section Styling Starts */
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    z-index: 1;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+header .fa-basket-shopping {
+    font-size: 2.5rem;
+    color: #FF7800;
+}
+
+
+header .logo {
+    width: 27vw;
+    text-align: center;
+}
+
+.navbar ul {
+    font-size: 1.8rem;
+    color: #666484;
+    font-weight: 500;
+}
+
+.navbar ul li {
+    margin: 10px;
+}
+
+header .navbar-logo {
+    width: 19vw;
+    position: absolute;
+    right: 10px;
+    top: auto;
+}
+
+header .navbar-logo .fa-solid {
+    background-color: #EEEEEE;
+    padding: 13px;
+    border-radius: 5px;
+    font-size: 2rem;
+    margin: 1px;
+    cursor: pointer;
+}
+
+header .navbar-logo .fa-solid:hover {
+    background-color: #FF7800;
+    color: white;
+}
+
+header button {
+    border: none;
+    border-radius: 5px;
+}
+
+header .fa-bars {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.794);
+    font-weight: bold;
+}
+
+header button {
+    margin-right: 15px;
+}
+
+.navbar-logo .btn span {
+    font-size: 19px;
+    border-radius: 11px;
+    text-align: center;
+    padding: 3px 10px;
+    top: 3px;
+    right: -23px;
+    cursor: default;
+}
+
+.navbar a {
+    color: #6E6B89 !important;
+}
+
+.navbar a:hover {
+    color: red !important;
+}
+
+.search-close {
+    display: none;
+}
+
+/* Navbar Section Styling Ends */
+
+
+@media only screen and (max-width:600px) {
+    header {
+        padding: 0;
+    }
+
+    header button {
+        margin-right: 2%;
+    }
+    
+    header .navbar-logo {
+        width: auto;
+        display: flex;
+        position: absolute;
+        right: 55px;
+        top: 9px;
+    }
+
+    header .navbar-logo .fa-solid {
+        padding: 8px;
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    header {
+        padding: 0;
+    }
+    
+    header .navbar-logo {
+        width: auto;
+        display: flex;
+        position: absolute;
+        right: 55px;
+        top: 9px;
+    }
+
+    header .navbar-logo .fa-solid {
+        padding: 8px;
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    header .navbar-logo {
+        width: auto;
+        display: flex;
+        position: absolute;
+        right: 60px;
+        top: 0;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    header .navbar-logo {
+        right: 00px;
+    }
+
+    header .logo {
+        width: 19vw;
+    }
+}

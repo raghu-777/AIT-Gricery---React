@@ -1,0 +1,97 @@
+#categories .row,
+#blog .row {
+    margin: 0 7%;
+}
+
+#blog .row {
+    margin: 0 3% 0 8%;
+}
+
+#categories .card {
+    padding: 10px 0 25px 0;
+    width: 20vw;
+}
+
+#categories .col :hover {
+    border-color: rgba(0, 0, 0, 0.74);
+    border-width: 3px;
+}
+
+#categories img {
+    width: 200px;
+    margin: 20px auto;
+}
+
+/* Media Queries  */
+
+@media only screen and (max-width:600px) {
+    #categories .row {
+        margin: 0 10%;
+    }
+
+    #categories .card {
+        width: auto;
+    }
+
+    #categories {
+        margin-top: 10%;
+        font-size: 2.9rem;
+    }
+
+    .arrow-design {
+        width: auto;
+        padding: 0px 35px;
+        padding-top: 8px;
+        margin-top: -8px;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    #categories .row {
+        margin: 0 5%;
+    }
+
+    #categories .card {
+        width: auto;
+    }
+
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    #categories .row {
+        margin: 0 5%;
+    }
+
+    #categories .card {
+        width: auto;
+    }
+
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    #categories .row {
+        margin: 0 5%;
+    }
+
+    #categories .card {
+        width: auto;
+        height: 56vh;
+    }
+
+}
+
+@media only screen and (min-width:1200px) {
+    #categories .row {
+        margin: 0 5%;
+    }
+
+    #categories .card {
+        width: auto;
+    }
+
+
+}
